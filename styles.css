@@ -1,0 +1,84 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+}
+
+header {
+    padding: 10px 0;
+}
+
+footer {
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Top Navbar Styles */
+.top-navbar {
+    border-bottom: 1px solid #555;
+}
+
+.logo img {
+    width: 100px; /* Adjust as needed */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #ffd700; /* Change to your preferred hover color */
+}
+
+/* Bottom Navbar Styles */
+.bottom-navbar {
+    border-top: 1px solid #555;
+}
+
+.bottom-navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.bottom-navbar ul li {
+    margin: 0 15px;
+}
+
+.bottom-navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.bottom-navbar ul li a:hover {
+    color: #ffd700; /* Change to your preferred hover color */
+}
